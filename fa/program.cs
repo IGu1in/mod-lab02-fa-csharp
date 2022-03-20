@@ -31,7 +31,7 @@ namespace fans
     public State c = new State()
     {
       Name = "c",
-      IsAcceptState = true,
+      IsAcceptState = false,
       Transitions = new Dictionary<char, State>()
     };
     public State d = new State()
@@ -43,7 +43,7 @@ namespace fans
     public State f = new State()
     {
       Name = "f",
-      IsAcceptState = true,
+      IsAcceptState = false,
       Transitions = new Dictionary<char, State>()
     };
 
@@ -93,7 +93,7 @@ namespace fans
     public State c = new State()
     {
       Name = "c",
-      IsAcceptState = true,
+      IsAcceptState = false,
       Transitions = new Dictionary<char, State>()
     };
     public State d = new State()
